@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 551" width="1100" height="551" role="img" aria-label="Activity telemetry — 14 repositories, 85 contributions in 12 months, 28 active days, longest streak 9 days. Regenerated 22 JUL 2026 11:49 UTC.">
-<title>natishmourani — activity telemetry, regenerated 22 JUL 2026 11:49 UTC</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 551" width="1100" height="551" role="img" aria-label="Activity telemetry — 14 repositories, 85 contributions in 12 months, 28 active days, longest streak 9 days. Regenerated 22 JUL 2026 11:57 UTC.">
+<title>natishmourani — activity telemetry, regenerated 22 JUL 2026 11:57 UTC</title>
 <style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}.cap{font-size:11px;letter-spacing:.2em;font-weight:700}.path{font-size:11.5px}.meta{font-size:10.5px;letter-spacing:.2em}</style>
 <rect width="1100" height="551" fill="#12161c"/>
 <text x="64" y="76" font-size="46" font-weight="300" fill="#e8ecf1" textLength="138.0" lengthAdjust="spacingAndGlyphs">0x004</text>
@@ -16,26 +16,26 @@
 <text x="84" y="224" font-size="11.5" font-weight="400" fill="#e8ecf1" textLength="41.4" lengthAdjust="spacingAndGlyphs">python</text>
 <rect x="208.4" y="214" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
 <rect x="208.4" y="214" width="115.6" height="9" rx="1.5" fill="#f0a202" opacity="1"/>
-<text x="350" y="224" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="350" y="224" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">4</text>
 <text x="84" y="247" font-size="11.5" font-weight="400" fill="#5c6672" textLength="20.7" lengthAdjust="spacingAndGlyphs">c++</text>
 <rect x="208.4" y="237" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="237" width="115.6" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="237" width="86.7" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="247" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">3</text>
 <text x="84" y="270" font-size="11.5" font-weight="400" fill="#5c6672" textLength="110.4" lengthAdjust="spacingAndGlyphs">jupyter notebook</text>
 <rect x="208.4" y="260" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="260" width="77.1" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="260" width="57.8" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="270" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">2</text>
 <text x="84" y="293" font-size="11.5" font-weight="400" fill="#5c6672" textLength="27.6" lengthAdjust="spacingAndGlyphs">html</text>
 <rect x="208.4" y="283" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="283" width="77.1" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="283" width="57.8" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="293" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">2</text>
 <text x="84" y="316" font-size="11.5" font-weight="400" fill="#5c6672" textLength="13.8" lengthAdjust="spacingAndGlyphs">c#</text>
 <rect x="208.4" y="306" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="306" width="77.1" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="306" width="57.8" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="316" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">2</text>
 <text x="84" y="339" font-size="11.5" font-weight="400" fill="#5c6672" textLength="55.2" lengthAdjust="spacingAndGlyphs">assembly</text>
 <rect x="208.4" y="329" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="329" width="38.5" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="329" width="28.9" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="339" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">1</text>
 <rect x="397" y="152" width="306" height="200" rx="3" fill="#0c1015" stroke="#242c36"/>
 <text x="417" y="180" class="cap" fill="#5c6672" textLength="237.6" lengthAdjust="spacing">CONTRIBUTION VELOCITY · 26W</text>
