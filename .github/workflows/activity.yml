@@ -1,0 +1,57 @@
+name: activity
+
+# Refreshes the 0x005 section of portfolio.svg from the public contributions
+# calendar. No token, no API quota, no secrets to configure.
+#
+# Note: GitHub suspends cron workflows on repositories with no pushes for 60
+# days. It emails you first; a single manual run re-arms it. Since this repo is
+# your profile README you will almost certainly push before then.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"     # every 6 hours, off the hour to dodge peak load
+  workflow_dispatch:            # lets you trigger it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/activity.py"
+      - ".github/workflows/activity.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate activity section
+        run: python3 scripts/activity.py
+
+      - name: Commit if the data moved
+        run: |
+          if [ -z "$(git status --porcelain portfolio.svg 0x004-activity.svg)" ]; then
+            echo "no change — skipping commit"
+            exit 0
+          fi
+
+          # Commit as the Actions bot on purpose. A commit authored by your own
+          # account would land on your contribution graph, so the section would
+          # be inflating the number it reports. The bot's commits do not count.
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add portfolio.svg 0x004-activity.svg
+          git commit -m "chore: refresh activity [skip ci]"
+          git push
