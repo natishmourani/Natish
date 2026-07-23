@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 3821" width="1100" height="3821" role="img" aria-label="Natish Mourani — Portfolio">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 3735" width="1100" height="3735" role="img" aria-label="Natish Mourani — Portfolio">
 <title>Natish Mourani — Combined Portfolio</title>
 <defs>
 <clipPath xmlns="http://www.w3.org/2000/svg" id="hdr-cp0"><rect class="cl0" x="64" y="156" width="756.0" height="48" /></clipPath>
@@ -130,14 +130,14 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 .clickable-group text { transition: fill 0.2s ease; }
 .clickable-group .arrow { transition: transform 0.2s ease, fill 0.2s ease; }
 
-.clickable-group:hover rect { fill: #1f242c; stroke: #f0a202; }
+.clickable-group:hover rect { fill: #161b22; stroke: #f0a202; }
 .clickable-group:hover .clickable { fill: #f0a202; }
 .clickable-group:hover .arrow { fill: #f0a202; transform: translateX(4px); }
 
 </style>
 
 <!-- Single unified background -->
-<rect width="1100" height="3821" fill="#0d1117"/>
+<rect width="1100" height="3735" fill="#0d1117"/>
 
   <!-- Section: natish-header.svg (Y=0, Height=400) -->
 <g transform="translate(0, 0)">
@@ -241,7 +241,7 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text xmlns="http://www.w3.org/2000/svg" x="1036" y="64" class="path" fill="#5c6672" text-anchor="end">~/0x002-projects</text>
 <line xmlns="http://www.w3.org/2000/svg" x1="323.2" y1="60" x2="901.6" y2="60" stroke="#242c36" />
 <g xmlns="http://www.w3.org/2000/svg" transform="translate(64,128)">
-<rect width="184" height="184" rx="3" fill="#0c1015" stroke="#242c36" />
+<rect width="184" height="184" rx="3" fill="#080b10" stroke="#242c36" />
 <clipPath id="proj-pc0"><rect width="184" height="184" rx="3" /></clipPath>
 <g clip-path="url(#proj-pc0)">
 <circle cx="34" cy="40" r="4" fill="#5c6672"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0;0.025;0.0625;0.8625;0.925;1.0" dur="8.0s" repeatCount="indefinite" /></circle>
@@ -276,7 +276,7 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text xmlns="http://www.w3.org/2000/svg" x="288" y="294" font-size="10.5" font-weight="400" fill="#5c6672" textLength="459.9" lengthAdjust="spacingAndGlyphs">fig. 002.1 — scoring every resume-job token pair, then locking the argmax</text>
 <line xmlns="http://www.w3.org/2000/svg" x1="64" y1="336" x2="1036" y2="336" stroke="#242c36" />
 <g xmlns="http://www.w3.org/2000/svg" transform="translate(64,352)">
-<rect width="184" height="184" rx="3" fill="#0c1015" stroke="#242c36" />
+<rect width="184" height="184" rx="3" fill="#080b10" stroke="#242c36" />
 <clipPath id="proj-pc1"><rect width="184" height="184" rx="3" /></clipPath>
 <g clip-path="url(#proj-pc1)">
 <rect x="22" y="44" width="140" height="16" rx="2" fill="none" stroke="#242c36"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0;0.0429;0.0857;0.8429;0.9143;1.0" dur="7.0s" repeatCount="indefinite" /></rect>
@@ -302,7 +302,7 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text xmlns="http://www.w3.org/2000/svg" x="288" y="518" font-size="10.5" font-weight="400" fill="#5c6672" textLength="472.5" lengthAdjust="spacingAndGlyphs">fig. 002.2 — four classifiers scored, logistic regression deployed at 0.753</text>
 <line xmlns="http://www.w3.org/2000/svg" x1="64" y1="560" x2="1036" y2="560" stroke="#242c36" />
 <g xmlns="http://www.w3.org/2000/svg" transform="translate(64,576)">
-<rect width="184" height="184" rx="3" fill="#0c1015" stroke="#242c36" />
+<rect width="184" height="184" rx="3" fill="#080b10" stroke="#242c36" />
 <clipPath id="proj-pc2"><rect width="184" height="184" rx="3" /></clipPath>
 <g clip-path="url(#proj-pc2)">
 <path d="M 20 32 L 20 20 L 32 20" fill="none" stroke="#5c6672" stroke-width="1.4"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0;0.0222;0.0556;0.8778;0.9333;1.0" dur="9.0s" repeatCount="indefinite" /></path>
@@ -325,7 +325,7 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text xmlns="http://www.w3.org/2000/svg" x="288" y="742" font-size="10.5" font-weight="400" fill="#5c6672" textLength="504.0" lengthAdjust="spacingAndGlyphs">fig. 002.3 — head pose tracked until a phone enters frame and the violation logs</text>
 <line xmlns="http://www.w3.org/2000/svg" x1="64" y1="784" x2="1036" y2="784" stroke="#242c36" />
 <g xmlns="http://www.w3.org/2000/svg" transform="translate(64,800)">
-<rect width="184" height="184" rx="3" fill="#0c1015" stroke="#242c36" />
+<rect width="184" height="184" rx="3" fill="#080b10" stroke="#242c36" />
 <clipPath id="proj-pc3"><rect width="184" height="184" rx="3" /></clipPath>
 <g clip-path="url(#proj-pc3)">
 <line x1="28" y1="49" x2="160.0" y2="49" stroke="#242c36"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0;0.03;0.06;0.88;0.93;1.0" dur="10.0s" repeatCount="indefinite" /></line>
@@ -372,7 +372,7 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text xmlns="http://www.w3.org/2000/svg" x="288" y="966" font-size="10.5" font-weight="400" fill="#5c6672" textLength="472.5" lengthAdjust="spacingAndGlyphs">fig. 002.4 — round robin, quantum 2, 4 processes drawn as the CPU runs them</text>
 <line xmlns="http://www.w3.org/2000/svg" x1="64" y1="1008" x2="1036" y2="1008" stroke="#242c36" />
 <g xmlns="http://www.w3.org/2000/svg" transform="translate(64,1024)">
-<rect width="184" height="184" rx="3" fill="#0c1015" stroke="#242c36" />
+<rect width="184" height="184" rx="3" fill="#080b10" stroke="#242c36" />
 <clipPath id="proj-pc4"><rect width="184" height="184" rx="3" /></clipPath>
 <g clip-path="url(#proj-pc4)">
 <circle cx="48.0" cy="90.7" r="2" fill="#5c6672"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0;0.0293;0.0565;0.8545;0.9;1.0" dur="11.0s" repeatCount="indefinite" /></circle>
@@ -480,96 +480,96 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <line xmlns="http://www.w3.org/2000/svg" x1="340.3" y1="368.0" x2="242.5" y2="424.5" stroke="#9ecbff" stroke-width="1" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.6667;0.6787;0.99;1.0" values="0.0;0.0;0.28;0.28;0.0" dur="13.0s" repeatCount="indefinite" /></line>
 <line xmlns="http://www.w3.org/2000/svg" x1="340.3" y1="276.0" x2="222.0" y2="268.9" stroke="#9ecbff" stroke-width="1" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8265;0.8385;0.99;1.0" values="0.0;0.0;0.28;0.28;0.0" dur="13.0s" repeatCount="indefinite" /></line>
 <line xmlns="http://www.w3.org/2000/svg" x1="340.3" y1="276.0" x2="275.0" y2="177.0" stroke="#9ecbff" stroke-width="1" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8401;0.8521;0.99;1.0" values="0.0;0.0;0.28;0.28;0.0" dur="13.0s" repeatCount="indefinite" /></line>
-<circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="230.0" r="19" fill="#12161c" stroke="#242c36" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="230.0" r="19" fill="#0d1117" stroke="#242c36" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="230.0" r="19" fill="none" stroke="#f0a202" stroke-width="2" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.015;0.027;0.99;1.0" values="0.0;0.0;1.0;1.0;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="230.0" r="27" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.015;0.027;0.99;1.0" values="0.0;0.0;0.12;0.12;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="420.0" y="234.0" text-anchor="middle" class="repo" fill="#e8ecf1">HS</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="276.0" r="19" fill="#12161c" stroke="#242c36" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="276.0" r="19" fill="#0d1117" stroke="#242c36" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="276.0" r="19" fill="none" stroke="#f0a202" stroke-width="2" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.1667;0.1787;0.99;1.0" values="0.0;0.0;1.0;1.0;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="276.0" r="27" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.1667;0.1787;0.99;1.0" values="0.0;0.0;0.12;0.12;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="499.7" y="280.0" text-anchor="middle" class="repo" fill="#e8ecf1">DP</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="368.0" r="19" fill="#12161c" stroke="#242c36" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="368.0" r="19" fill="#0d1117" stroke="#242c36" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="368.0" r="19" fill="none" stroke="#f0a202" stroke-width="2" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.3333;0.3453;0.99;1.0" values="0.0;0.0;1.0;1.0;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="499.7" cy="368.0" r="27" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.3333;0.3453;0.99;1.0" values="0.0;0.0;0.12;0.12;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="499.7" y="372.0" text-anchor="middle" class="repo" fill="#e8ecf1">SP</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="414.0" r="19" fill="#12161c" stroke="#242c36" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="414.0" r="19" fill="#0d1117" stroke="#242c36" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="414.0" r="19" fill="none" stroke="#f0a202" stroke-width="2" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.5;0.512;0.99;1.0" values="0.0;0.0;1.0;1.0;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="414.0" r="27" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.5;0.512;0.99;1.0" values="0.0;0.0;0.12;0.12;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="420.0" y="418.0" text-anchor="middle" class="repo" fill="#e8ecf1">CS</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="368.0" r="19" fill="#12161c" stroke="#242c36" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="368.0" r="19" fill="#0d1117" stroke="#242c36" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="368.0" r="19" fill="none" stroke="#f0a202" stroke-width="2" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.6667;0.6787;0.99;1.0" values="0.0;0.0;1.0;1.0;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="368.0" r="27" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.6667;0.6787;0.99;1.0" values="0.0;0.0;0.12;0.12;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="340.3" y="372.0" text-anchor="middle" class="repo" fill="#e8ecf1">CH</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="276.0" r="19" fill="#12161c" stroke="#242c36" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="276.0" r="19" fill="#0d1117" stroke="#242c36" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="276.0" r="19" fill="none" stroke="#f0a202" stroke-width="2" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8333;0.8453;0.99;1.0" values="0.0;0.0;1.0;1.0;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="340.3" cy="276.0" r="27" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8333;0.8453;0.99;1.0" values="0.0;0.0;0.12;0.12;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="340.3" y="280.0" text-anchor="middle" class="repo" fill="#e8ecf1">PW</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="390.3" cy="176.5" r="20.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="390.3" cy="176.5" r="20.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="390.3" cy="176.5" r="20.4" fill="#f0a202" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="390.3" cy="176.5" r="25.4" fill="none" stroke="#f0a202" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.9679;0.9799;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="390.3" cy="176.5" r="20.4" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.9679;0.9799;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="384.4" y="151.7" text-anchor="middle" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.9679;0.9799;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Python 6/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="472.4" cy="461.0" r="20.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="472.4" cy="461.0" r="20.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="472.4" cy="461.0" r="20.4" fill="#f0a202" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="472.4" cy="461.0" r="25.4" fill="none" stroke="#f0a202" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.4426;0.4546;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="472.4" cy="461.0" r="20.4" fill="#f0a202" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.4426;0.4546;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="482.7" y="492.5" text-anchor="start" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.4426;0.4546;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Git · GitHub 6/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="449.7" cy="176.5" r="13.2" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="449.7" cy="176.5" r="13.2" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="449.7" cy="176.5" r="13.2" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="449.7" cy="176.5" r="18.2" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.0321;0.0441;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="449.7" cy="176.5" r="13.2" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.0321;0.0441;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="454.2" y="158.8" text-anchor="middle" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.0321;0.0441;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Flask 3/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="367.6" cy="461.0" r="13.2" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="367.6" cy="461.0" r="13.2" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="367.6" cy="461.0" r="13.2" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="367.6" cy="461.0" r="18.2" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.5574;0.5694;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="367.6" cy="461.0" r="13.2" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.5574;0.5694;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="359.8" y="485.7" text-anchor="end" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.5574;0.5694;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Matplotlib · Seaborn 3/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="537.6" cy="154.1" r="10.8" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="537.6" cy="154.1" r="10.8" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="537.6" cy="154.1" r="10.8" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="537.6" cy="154.1" r="15.8" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.0726;0.0846;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="537.6" cy="154.1" r="10.8" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.0726;0.0846;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="546.4" y="140.3" text-anchor="start" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.0726;0.0846;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Scikit-learn 2/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="605.8" cy="235.4" r="10.8" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="605.8" cy="235.4" r="10.8" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="605.8" cy="235.4" r="10.8" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="605.8" cy="235.4" r="15.8" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.096;0.108;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="605.8" cy="235.4" r="10.8" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.096;0.108;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="617.0" y="223.0" text-anchor="start" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.096;0.108;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Pandas · NumPy 2/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="437.9" cy="117.8" r="8.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="437.9" cy="117.8" r="8.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="437.9" cy="117.8" r="8.4" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="437.9" cy="117.8" r="13.4" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.0321;0.0441;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="437.9" cy="117.8" r="8.4" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.0321;0.0441;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="441.4" y="104.7" text-anchor="middle" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.0321;0.0441;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Sentence Transformers 1/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="618.0" cy="375.1" r="8.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="618.0" cy="375.1" r="8.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="618.0" cy="375.1" r="8.4" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="618.0" cy="375.1" r="13.4" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.3265;0.3385;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="618.0" cy="375.1" r="8.4" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.3265;0.3385;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="633.4" y="387.2" text-anchor="start" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.3265;0.3385;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />OpenCV · YOLOv8 1/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="582.6" cy="446.8" r="8.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="582.6" cy="446.8" r="8.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="582.6" cy="446.8" r="8.4" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="582.6" cy="446.8" r="13.4" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.3401;0.3521;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="582.6" cy="446.8" r="8.4" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.3401;0.3521;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="597.3" y="460.1" text-anchor="start" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.3401;0.3521;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />MediaPipe 1/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="527.0" r="8.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="527.0" r="8.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="527.0" r="8.4" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="527.0" r="13.4" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.5;0.512;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="420.0" cy="527.0" r="8.4" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.5;0.512;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="420.0" y="548.4" text-anchor="middle" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.5;0.512;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />Tkinter 1/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="242.5" cy="424.5" r="8.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="242.5" cy="424.5" r="8.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="242.5" cy="424.5" r="8.4" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="242.5" cy="424.5" r="13.4" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.6667;0.6787;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="242.5" cy="424.5" r="8.4" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.6667;0.6787;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="227.4" y="437.2" text-anchor="end" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.6667;0.6787;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />C++ 1/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="222.0" cy="268.9" r="8.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="222.0" cy="268.9" r="8.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="222.0" cy="268.9" r="8.4" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="222.0" cy="268.9" r="13.4" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8265;0.8385;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="222.0" cy="268.9" r="8.4" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8265;0.8385;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="206.6" y="264.8" text-anchor="end" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.8265;0.8385;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />C# · ASP.NET Core 1/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="275.0" cy="177.0" r="8.4" fill="#12161c" stroke="#5c6672" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="275.0" cy="177.0" r="8.4" fill="#0d1117" stroke="#5c6672" stroke-width="1.5" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="275.0" cy="177.0" r="8.4" fill="#9ecbff" opacity="0.18" />
 <circle xmlns="http://www.w3.org/2000/svg" cx="275.0" cy="177.0" r="13.4" fill="none" stroke="#9ecbff" stroke-width="1.5" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8401;0.8521;0.99;1.0" values="0.0;0.0;0.45;0.45;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <circle xmlns="http://www.w3.org/2000/svg" cx="275.0" cy="177.0" r="8.4" fill="#9ecbff" opacity="0"><animate attributeName="opacity" keyTimes="0.0;0.8401;0.8521;0.99;1.0" values="0.0;0.0;0.85;0.85;0.0" dur="13.0s" repeatCount="indefinite" /></circle>
 <text xmlns="http://www.w3.org/2000/svg" x="260.3" y="171.7" text-anchor="end" class="skill" fill="#5c6672"><animate attributeName="fill" keyTimes="0.0;0.8401;0.8521;0.99;1.0" values="#5c6672;#5c6672;#e8ecf1;#e8ecf1;#5c6672" dur="13.0s" repeatCount="indefinite" />SQL Server · MySQL 1/6</text>
-<circle xmlns="http://www.w3.org/2000/svg" cx="420" cy="322" r="34" fill="#12161c" stroke="#f0a202" stroke-width="1.5" />
+<circle xmlns="http://www.w3.org/2000/svg" cx="420" cy="322" r="34" fill="#0d1117" stroke="#f0a202" stroke-width="1.5" />
 <text xmlns="http://www.w3.org/2000/svg" x="420" y="320" text-anchor="middle" font-size="20" font-weight="700" fill="#e8ecf1">13</text>
 <text xmlns="http://www.w3.org/2000/svg" x="420" y="337" text-anchor="middle" font-size="9" letter-spacing=".1em" fill="#5c6672">SKILLS</text>
 <text xmlns="http://www.w3.org/2000/svg" x="792" y="126" font-size="11" font-weight="700" letter-spacing=".15em" fill="#5c6672">COVERAGE</text>
@@ -603,6 +603,7 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text xmlns="http://www.w3.org/2000/svg" x="136" y="722" font-size="11.5" font-weight="400" fill="#5c6672" textLength="552.0" lengthAdjust="spacingAndGlyphs">= repos that prove it · ring = 3+ repos inward, 1-2 outward · amber = every repo</text>
 
   </g>
+<!--ACTIVITY:START-->
 <g transform="translate(0, 2826)"><text x="64" y="76" font-size="46" font-weight="300" fill="#e8ecf1" textLength="138.0" lengthAdjust="spacingAndGlyphs">0x004</text>
 <text x="220" y="64" class="cap" fill="#f0a202">$</text>
 <text x="228.8" y="64" class="cap" fill="#e8ecf1" textLength="70.4" lengthAdjust="spacing">ACTIVITY</text>
@@ -611,34 +612,34 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text x="64" y="124" class="cap" fill="#9ecbff" textLength="316.8" lengthAdjust="spacing">TELEMETRY — WHAT THE HANDS ARE DOING</text>
 <text x="1036" y="124" class="cap" fill="#5c6672" text-anchor="end" textLength="70.4" lengthAdjust="spacing">FIG. 004</text>
 <line x1="64" y1="134" x2="1036" y2="134" stroke="#242c36"/>
-<rect x="64" y="152" width="306" height="200" rx="3" fill="#0c1015" stroke="#242c36"/>
+<rect x="64" y="152" width="306" height="200" rx="3" fill="#080b10" stroke="#242c36"/>
 <text x="84" y="180" class="cap" fill="#5c6672" textLength="193.6" lengthAdjust="spacing">LANGUAGE BY REPOSITORY</text>
 <line x1="84" y1="192" x2="350" y2="192" stroke="#242c36"/>
 <text x="84" y="224" font-size="11.5" font-weight="400" fill="#e8ecf1" textLength="41.4" lengthAdjust="spacingAndGlyphs">python</text>
 <rect x="208.4" y="214" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
 <rect x="208.4" y="214" width="115.6" height="9" rx="1.5" fill="#f0a202" opacity="1"/>
-<text x="350" y="224" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="350" y="224" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">3</text>
 <text x="84" y="247" font-size="11.5" font-weight="400" fill="#5c6672" textLength="20.7" lengthAdjust="spacingAndGlyphs">c++</text>
 <rect x="208.4" y="237" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="237" width="86.7" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="237" width="115.6" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="247" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">3</text>
 <text x="84" y="270" font-size="11.5" font-weight="400" fill="#5c6672" textLength="110.4" lengthAdjust="spacingAndGlyphs">jupyter notebook</text>
 <rect x="208.4" y="260" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="260" width="57.8" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="260" width="77.1" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="270" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">2</text>
 <text x="84" y="293" font-size="11.5" font-weight="400" fill="#5c6672" textLength="27.6" lengthAdjust="spacingAndGlyphs">html</text>
 <rect x="208.4" y="283" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="283" width="57.8" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="283" width="77.1" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="293" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">2</text>
 <text x="84" y="316" font-size="11.5" font-weight="400" fill="#5c6672" textLength="13.8" lengthAdjust="spacingAndGlyphs">c#</text>
 <rect x="208.4" y="306" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="306" width="57.8" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="306" width="77.1" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="316" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">2</text>
 <text x="84" y="339" font-size="11.5" font-weight="400" fill="#5c6672" textLength="55.2" lengthAdjust="spacingAndGlyphs">assembly</text>
 <rect x="208.4" y="329" width="115.6" height="9" rx="1.5" fill="#1a1f28"/>
-<rect x="208.4" y="329" width="28.9" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
+<rect x="208.4" y="329" width="38.5" height="9" rx="1.5" fill="#9ecbff" opacity="0.62"/>
 <text x="350" y="339" font-size="11.5" font-weight="400" fill="#5c6672" text-anchor="end" textLength="6.9" lengthAdjust="spacingAndGlyphs">1</text>
-<rect x="397" y="152" width="306" height="200" rx="3" fill="#0c1015" stroke="#242c36"/>
+<rect x="397" y="152" width="306" height="200" rx="3" fill="#080b10" stroke="#242c36"/>
 <text x="417" y="180" class="cap" fill="#5c6672" textLength="237.6" lengthAdjust="spacing">CONTRIBUTION VELOCITY · 26W</text>
 <line x1="417" y1="192" x2="683" y2="192" stroke="#242c36"/>
 <line x1="423" y1="214" x2="677" y2="214" stroke="#242c36" stroke-dasharray="2 4"/>
@@ -652,412 +653,24 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 <text x="677" y="326" font-size="10" font-weight="400" fill="#5c6672" text-anchor="end" textLength="42.0" lengthAdjust="spacingAndGlyphs">jul '26</text>
 <text x="423" y="338" font-size="10.5" font-weight="400" fill="#5c6672" textLength="126.0" lengthAdjust="spacingAndGlyphs">trend — accelerating</text>
 <text x="792" y="200" font-size="30" font-weight="700" fill="#f0a202" text-anchor="end" textLength="36.0" lengthAdjust="spacingAndGlyphs">14</text>
-<text x="806" y="194" class="cap" fill="#5c6672" textLength="105.6" lengthAdjust="spacing">REPOSITORIES</text>
+<text x="808" y="194" class="cap" fill="#5c6672" textLength="105.6" lengthAdjust="spacing">REPOSITORIES</text>
 <text x="792" y="246" font-size="30" font-weight="700" fill="#f0a202" text-anchor="end" textLength="36.0" lengthAdjust="spacingAndGlyphs">90</text>
-<text x="806" y="240" class="cap" fill="#5c6672" textLength="167.2" lengthAdjust="spacing">CONTRIBUTIONS · 12M</text>
+<text x="808" y="240" class="cap" fill="#5c6672" textLength="167.2" lengthAdjust="spacing">CONTRIBUTIONS · 12M</text>
 <text x="792" y="292" font-size="30" font-weight="700" fill="#f0a202" text-anchor="end" textLength="36.0" lengthAdjust="spacingAndGlyphs">28</text>
-<text x="806" y="286" class="cap" fill="#5c6672" textLength="96.8" lengthAdjust="spacing">ACTIVE DAYS</text>
+<text x="808" y="286" class="cap" fill="#5c6672" textLength="96.8" lengthAdjust="spacing">ACTIVE DAYS</text>
 <text x="792" y="338" font-size="30" font-weight="700" fill="#f0a202" text-anchor="end" textLength="18.0" lengthAdjust="spacingAndGlyphs">9</text>
-<text x="806" y="332" class="cap" fill="#5c6672" textLength="123.2" lengthAdjust="spacing">LONGEST STREAK</text>
-<text x="64" y="376" class="cap" fill="#5c6672" textLength="290.4" lengthAdjust="spacing">CONTRIBUTION CALENDAR · 12 MONTHS</text>
-<rect x="64" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="64" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="64" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="64" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="64" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="64" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="64" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="78" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="78" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="78" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="78" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="78" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="78" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="78" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="92" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="92" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">AUG</text>
-<rect x="92" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="92" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="92" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="92" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="92" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="92" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="106" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="106" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="106" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="106" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="106" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="106" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="106" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="120" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="120" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="120" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="120" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="120" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="120" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="120" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="134" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="134" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="134" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="134" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="134" y="462" width="11" height="11" rx="2" fill="#f0a202"/>
-<rect x="134" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="134" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="148" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="148" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="148" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="148" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="148" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="148" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="148" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="162" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="162" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">SEP</text>
-<rect x="162" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="162" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="162" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="162" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="162" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="162" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="176" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="176" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="176" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="176" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="176" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="176" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="176" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="190" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="190" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="190" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="190" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="190" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="190" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="190" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="204" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="204" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="204" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="204" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="204" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="204" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="204" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="218" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="218" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">OCT</text>
-<rect x="218" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="218" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="218" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="218" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="218" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="218" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="232" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="232" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="232" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="232" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="232" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="232" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="232" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="246" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="246" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="246" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="246" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="246" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="246" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="246" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="260" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="260" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="260" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="260" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="260" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="260" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="260" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="274" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="274" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">NOV</text>
-<rect x="274" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="274" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="274" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="274" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="274" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="274" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="288" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="288" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="288" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="288" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="288" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="288" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="288" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="302" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="302" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="302" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="302" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="302" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="302" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="302" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="316" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="316" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="316" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="316" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="316" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="316" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="316" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="330" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="330" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="330" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="330" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="330" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="330" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="330" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="344" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="344" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">DEC</text>
-<rect x="344" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="344" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="344" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="344" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="344" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="344" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="358" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="358" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="358" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="358" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="358" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="358" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="358" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="372" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="372" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="372" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="372" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="372" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="372" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="372" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="386" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="386" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="386" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="386" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="386" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="386" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="386" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="400" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="400" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">JAN</text>
-<rect x="400" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="400" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="400" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="400" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="400" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="400" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="414" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="414" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="414" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="414" y="448" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="414" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="414" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="414" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="428" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="428" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="428" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="428" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="428" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="428" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="428" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="442" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="442" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="442" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="442" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="442" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="442" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="442" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="456" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="456" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">FEB</text>
-<rect x="456" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="456" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="456" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="456" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="456" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="456" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="470" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="470" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="470" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="470" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="470" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="470" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="470" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="484" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="484" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="484" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="484" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="484" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="484" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="484" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="498" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="498" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="498" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="498" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="498" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="498" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="498" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="512" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="512" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">MAR</text>
-<rect x="512" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="512" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="512" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="512" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="512" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="512" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="526" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="526" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="526" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="526" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="526" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="526" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="526" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="540" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="540" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="540" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="540" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="540" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="540" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="540" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="554" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="554" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="554" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="554" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="554" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="554" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="554" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="568" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="568" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="568" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="568" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="568" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="568" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="568" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="582" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="582" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">APR</text>
-<rect x="582" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="582" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="582" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="582" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="582" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="582" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="596" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="596" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="596" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="596" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="596" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="596" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="596" y="490" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="610" y="406" width="11" height="11" rx="2" fill="#5aa3c6"/>
-<rect x="610" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="610" y="434" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="610" y="448" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="610" y="462" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="610" y="476" width="11" height="11" rx="2" fill="#2b7392"/>
-<rect x="610" y="490" width="11" height="11" rx="2" fill="#2b7392"/>
-<rect x="624" y="406" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="624" y="420" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="624" y="434" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="624" y="448" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="624" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="624" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="624" y="490" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="638" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="638" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">MAY</text>
-<rect x="638" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="638" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="638" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="638" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="638" y="476" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="638" y="490" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="652" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="652" y="420" width="11" height="11" rx="2" fill="#5aa3c6"/>
-<rect x="652" y="434" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="652" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="652" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="652" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="652" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="666" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="666" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="666" y="434" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="666" y="448" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="666" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="666" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="666" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="680" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="680" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="680" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="680" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="680" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="680" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="680" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="694" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="694" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="694" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="694" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="694" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="694" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="694" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="708" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="708" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">JUN</text>
-<rect x="708" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="708" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="708" y="448" width="11" height="11" rx="2" fill="#2b7392"/>
-<rect x="708" y="462" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="708" y="476" width="11" height="11" rx="2" fill="#9ecbff"/>
-<rect x="708" y="490" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="722" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="722" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="722" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="722" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="722" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="722" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="722" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="736" y="406" width="11" height="11" rx="2" fill="#5aa3c6"/>
-<rect x="736" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="736" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="736" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="736" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="736" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="736" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="750" y="406" width="11" height="11" rx="2" fill="#5aa3c6"/>
-<rect x="750" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="750" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="750" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="750" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="750" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="750" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="764" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="764" y="394" font-size="9" font-weight="400" fill="#5c6672" textLength="16.2" lengthAdjust="spacingAndGlyphs">JUL</text>
-<rect x="764" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="764" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="764" y="448" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="764" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="764" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="764" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="778" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="778" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="778" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="778" y="448" width="11" height="11" rx="2" fill="#9ecbff"/>
-<rect x="778" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="778" y="476" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="778" y="490" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="792" y="406" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="792" y="420" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="792" y="434" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="792" y="448" width="11" height="11" rx="2" fill="#9ecbff"/>
-<rect x="792" y="462" width="11" height="11" rx="2" fill="#1a1f28"/>
-<text x="665" y="525" font-size="9" font-weight="400" fill="#5c6672" textLength="21.6" lengthAdjust="spacingAndGlyphs">LESS</text>
-<rect x="699" y="516" width="11" height="11" rx="2" fill="#1a1f28"/>
-<rect x="713" y="516" width="11" height="11" rx="2" fill="#1d4257"/>
-<rect x="727" y="516" width="11" height="11" rx="2" fill="#2b7392"/>
-<rect x="741" y="516" width="11" height="11" rx="2" fill="#5aa3c6"/>
-<rect x="755" y="516" width="11" height="11" rx="2" fill="#9ecbff"/>
-<text x="775" y="525" font-size="9" font-weight="400" fill="#5c6672" textLength="21.6" lengthAdjust="spacingAndGlyphs">MORE</text>
-<line x1="833" y1="402" x2="833" y2="501" stroke="#242c36"/>
-<text x="853" y="412" font-size="9.5" font-weight="700" letter-spacing=".18em" fill="#5c6672" textLength="106.4" lengthAdjust="spacing">CURRENT STREAK</text>
-<text x="1036" y="412" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="34.5" lengthAdjust="spacingAndGlyphs">1 day</text>
-<text x="853" y="438" font-size="9.5" font-weight="700" letter-spacing=".18em" fill="#5c6672" textLength="83.6" lengthAdjust="spacing">LAST COMMIT</text>
-<text x="1036" y="438" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="62.1" lengthAdjust="spacingAndGlyphs">yesterday</text>
-<text x="853" y="464" font-size="9.5" font-weight="700" letter-spacing=".18em" fill="#5c6672" textLength="83.6" lengthAdjust="spacing">BUSIEST DAY</text>
-<text x="1036" y="464" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="69.0" lengthAdjust="spacingAndGlyphs">28 aug '25</text>
-<text x="853" y="490" font-size="9.5" font-weight="700" letter-spacing=".18em" fill="#5c6672" textLength="83.6" lengthAdjust="spacing">PEAK VOLUME</text>
-<text x="1036" y="490" font-size="11.5" font-weight="400" fill="#e8ecf1" text-anchor="end" textLength="69.0" lengthAdjust="spacingAndGlyphs">12 commits</text></g>
-<g transform="translate(0, 3377)">
+<text x="808" y="332" class="cap" fill="#5c6672" textLength="123.2" lengthAdjust="spacing">LONGEST STREAK</text>
+<line x1="64" y1="386" x2="1036" y2="386" stroke="#242c36"/>
+<text x="64.0" y="410" class="cap" fill="#5c6672" textLength="123.2" lengthAdjust="spacing">CURRENT STREAK</text>
+<text x="64.0" y="435" font-size="17" font-weight="400" fill="#e8ecf1" textLength="51.0" lengthAdjust="spacingAndGlyphs">1 day</text>
+<text x="307.0" y="410" class="cap" fill="#5c6672" textLength="96.8" lengthAdjust="spacing">LAST COMMIT</text>
+<text x="307.0" y="435" font-size="17" font-weight="400" fill="#e8ecf1" textLength="91.8" lengthAdjust="spacingAndGlyphs">yesterday</text>
+<text x="550.0" y="410" class="cap" fill="#5c6672" textLength="96.8" lengthAdjust="spacing">BUSIEST DAY</text>
+<text x="550.0" y="435" font-size="17" font-weight="400" fill="#e8ecf1" textLength="112.2" lengthAdjust="spacingAndGlyphs">28 aug 2025</text>
+<text x="793.0" y="410" class="cap" fill="#5c6672" textLength="96.8" lengthAdjust="spacing">PEAK VOLUME</text>
+<text x="793.0" y="435" font-size="17" font-weight="400" fill="#e8ecf1" textLength="102.0" lengthAdjust="spacingAndGlyphs">12 commits</text></g>
+<!--ACTIVITY:END-->
+<g transform="translate(0, 3291)">
     <text xmlns="http://www.w3.org/2000/svg" x="64" y="76" font-size="46" font-weight="300" fill="#e8ecf1" textLength="138.0" lengthAdjust="spacingAndGlyphs">0x005</text>
 <text xmlns="http://www.w3.org/2000/svg" x="220.0" y="64" class="cap" fill="#f0a202">$</text>
 <text xmlns="http://www.w3.org/2000/svg" x="228.8" y="64" class="cap" fill="#e8ecf1">CONTACT</text>
@@ -1068,7 +681,7 @@ text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Deja
 
 
 <g xmlns="http://www.w3.org/2000/svg" transform="translate(64, 110)">
-  <rect width="400" height="240" rx="6" fill="#0c1015" stroke="#242c36" stroke-width="1.5" />
+  <rect width="400" height="240" rx="6" fill="#080b10" stroke="#242c36" stroke-width="1.5" />
   <path d="M 0 6 A 6 6 0 0 1 6 0 L 394 0 A 6 6 0 0 1 400 6 L 400 30 L 0 30 Z" fill="#161b22" />
   <circle cx="20" cy="15" r="4.5" fill="#ff5f56" />
   <circle cx="34" cy="15" r="4.5" fill="#ffbd2e" />
