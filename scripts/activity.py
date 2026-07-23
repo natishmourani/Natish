@@ -31,16 +31,11 @@ TOKEN   = os.environ.get("GITHUB_TOKEN", "")
 # ── design tokens, shared with the rest of the document ───────────────────
 W, M        = 1100, 64
 H           = 0                       # set below, once geometry is known
-BG, PANEL   = "#12161c", "#0c1015"
+BG, PANEL   = "#0d1117", "#080b10"   # GitHub dark canvas + recessed panel
 RULE, BONE  = "#242c36", "#e8ecf1"
 MUTED, BLUE = "#5c6672", "#9ecbff"
 AMBER       = "#f0a202"
-EMPTY       = "#1a1f28"
-RAMP        = ["#1a1f28", "#1d4257", "#2b7392", "#5aa3c6", "#9ecbff"]
-
-CELL, GAP   = 11, 3
-PITCH       = CELL + GAP
-NROW        = 7
+EMPTY       = "#1a1f28"               # unfilled bar track
 VEL_WEEKS   = 26
 
 # Calendar block geometry lives at module level so the section height can be
@@ -49,11 +44,11 @@ SUB_Y       = 124                             # sub-header baseline
 SUB_RULE    = SUB_Y + 10
 PT          = SUB_RULE + 18                   # panel row top
 PB          = PT + 200                        # panel row bottom
-GY_CAL      = PB + 54                         # heatmap origin
-GRID_BOT    = GY_CAL + NROW * PITCH - GAP     # last heatmap row
-LEGEND_Y    = GRID_BOT + 24                   # LESS/MORE baseline
-BOTTOM_PAD  = 26                              # matches the other sections
-H           = LEGEND_Y + BOTTOM_PAD   # section ends just under the legend
+STAT_RULE   = PB + 34                         # divider under the panel row
+STAT_LABEL  = STAT_RULE + 24
+STAT_VALUE  = STAT_LABEL + 25
+BOTTOM_PAD  = 30                              # matches the other sections
+H           = STAT_VALUE + BOTTOM_PAD # section ends under the stats row
 CAP_ADV     = 11 * 0.6 + 2.2          # cap advance including .2em tracking
 CAP_S_FS    = 9.5                     # small caps for the narrow stat column
 CAP_S_ADV   = CAP_S_FS * 0.6 + 1.9
@@ -194,7 +189,7 @@ def render(days, s, repos, stamp, index="0x004"):
     b.append(cap("FIG. 004", W - M, SUB_Y, MUTED, anchor="end"))
     b.append(f'<line x1="{M}" y1="{SUB_RULE}" x2="{W-M}" y2="{SUB_RULE}" stroke="{RULE}"/>')
 
-    A, B_, C = M, 397, 730
+    A, B_, C = M, 397, 730              # language · velocity · headline figures
     PW = 306
 
     # ── panel A · language by repository ───────────────────────────────
@@ -262,9 +257,9 @@ def render(days, s, repos, stamp, index="0x004"):
     b.append(f'<line x1="{cx0}" y1="{r1(cy0+ch)}" x2="{r1(cx0+cw)}" y2="{r1(cy0+ch)}" '
              f'stroke="{MUTED}"/>')
 
+    # peak marker: pulsing, matching the contact status dot. No caption.
     pi = wk.index(peak)
-    px_, py_ = pts[pi]
-    b.append(pulse(px_, py_, AMBER, r=3.4, to=11, dur="2s"))
+    b.append(pulse(pts[pi][0], pts[pi][1], AMBER, r=3.4, to=11, dur="2s"))
 
     n_lab = max(len(days) - VEL_WEEKS * 7, 0)
     d0 = dt.date.fromisoformat(days[n_lab]["d"])
@@ -283,50 +278,25 @@ def render(days, s, repos, stamp, index="0x004"):
     for i, (num, label) in enumerate(figs):
         y = PT + 38 + i * 46
         b.append(pin(num, C + 62, y + 10, 30, AMBER, 700, anchor="end"))
-        b.append(cap(label, C + 76, y + 4, MUTED))
+        b.append(cap(label, C + 78, y + 4, MUTED))
 
-    # ── calendar heatmap ───────────────────────────────────────────────
-    GY = GY_CAL
-    b.append(cap("CONTRIBUTION CALENDAR · 12 MONTHS", M, GY - 30, MUTED))
-    start, seen = dt.date.fromisoformat(days[0]["d"]), set()
-    col0 = (start.weekday() + 1) % 7
-    for i, day in enumerate(days):
-        col, row = divmod(i + col0, NROW)
-        x, y = M + col * PITCH, GY + row * PITCH
-        star = day["d"] == s["busiest"]["d"] and s["busiest"]["c"] > 0
-        b.append(f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" '
-                 f'fill="{AMBER if star else (RAMP[day["l"]] if day["l"] else EMPTY)}"/>')
-        date = dt.date.fromisoformat(day["d"])
-        k = day["d"][:7]
-        if k not in seen and date.day <= 7 and row == 0:
-            seen.add(k)
-            b.append(pin(date.strftime("%b").upper(), x, GY - 12, 9, MUTED))
-    ncol = (len(days) + col0 + NROW - 1) // NROW
-    gw, gbot = ncol * PITCH - GAP, GY + NROW * PITCH - GAP
-
-    lx2 = M + gw - (5 * PITCH + 68)
-    b.append(pin("LESS", lx2, gbot + 24, 9, MUTED))
-    for k in range(5):
-        b.append(f'<rect x="{r1(lx2+34+k*PITCH)}" y="{gbot+15}" width="{CELL}" height="{CELL}" '
-                 f'rx="2" fill="{RAMP[k]}"/>')
-    b.append(pin("MORE", lx2 + 34 + 5 * PITCH + 6, gbot + 24, 9, MUTED))
-
+    # ── stats row ──────────────────────────────────────────────────────
+    # No contribution heatmap here on purpose: GitHub already renders one
+    # directly above the README, and two identical calendars on one page reads
+    # as a mistake. This section carries only what GitHub does not show.
+    b.append(f'<line x1="{M}" y1="{STAT_RULE}" x2="{W-M}" y2="{STAT_RULE}" stroke="{RULE}"/>')
     peak_d = dt.date.fromisoformat(s["busiest"]["d"])
-    sx = M + gw + 30
-    b.append(f'<line x1="{r1(sx)}" y1="{GY-4}" x2="{r1(sx)}" y2="{gbot}" stroke="{RULE}"/>')
-    VFS = 11.5
-    for i, (lab, val) in enumerate([
-            ("CURRENT STREAK", f"{s['current']} day" + ("s" if s["current"] != 1 else "")),
-            ("LAST COMMIT",    ago(s["last_active"], today)),
-            ("BUSIEST DAY",    peak_d.strftime("%d %b '%y").lower()),
-            ("PEAK VOLUME",    f"{s['busiest']['c']} commits")]):
-        y = GY + 6 + i * 26
-        lab_x = sx + 20
-        b.append(cap_s(lab, lab_x, y, MUTED))
-        b.append(pin(val, W - M, y, VFS, BONE, anchor="end"))
-        gap = ((W - M) - len(val) * VFS * 0.6) - (lab_x + len(lab) * CAP_S_ADV)
-        if gap < 12:
-            warn.append(f"stat row '{lab}' has only {round(gap)}px clearance")
+    stats = [("CURRENT STREAK", f"{s['current']} day" + ("s" if s["current"] != 1 else "")),
+             ("LAST COMMIT",    ago(s["last_active"], today)),
+             ("BUSIEST DAY",    peak_d.strftime("%d %b %Y").lower()),
+             ("PEAK VOLUME",    f"{s['busiest']['c']} commits")]
+    colw = (W - 2 * M) / len(stats)
+    for i, (lab, val) in enumerate(stats):
+        x = M + i * colw
+        b.append(cap(lab, x, STAT_LABEL, MUTED))
+        b.append(pin(val, x, STAT_VALUE, 17, BONE))
+        if len(lab) * CAP_ADV > colw - 12 or len(val) * 17 * 0.6 > colw - 12:
+            warn.append(f"stats column '{lab}' overflows its {round(colw)}px slot")
 
     # The section ends at the calendar legend. The regenerated-at stamp and the
     # source credit used to live here; both were removed by request. The stamp
@@ -374,21 +344,24 @@ def splice(svg_text, inner):
         nxt = int(tops[i + 1].group(1)) if i + 1 < len(tops) else canvas
         heights.append((nxt - int(m.group(1))) if nxt is not None else H)
 
-    keep = [(b, h) for b, h in zip(blocks, heights) if label_of(b) != "ACTIVITY"]
+    # Carry an explicit "is the activity block" flag. It used to be inferred
+    # with `blk is inner`, but renumber() returns a new string, so the identity
+    # was lost and the ACTIVITY markers silently never got written.
+    keep = [(b, h, False) for b, h in zip(blocks, heights) if label_of(b) != "ACTIVITY"]
 
     # place activity immediately before contact, else at the end
-    at = next((i for i, (b, _) in enumerate(keep) if label_of(b) == "CONTACT"), len(keep))
-    keep.insert(at, (inner, H))
+    at = next((i for i, (b, _, _) in enumerate(keep) if label_of(b) == "CONTACT"), len(keep))
+    keep.insert(at, (inner, H, True))
 
     # renumber every indexed section from its final position
     n = 0
     final = []
-    for blk, h in keep:
+    for blk, h, is_act in keep:
         lab = label_of(blk)
         if lab in SLUGS:
             n += 1
             blk = renumber(blk, f"0x{n:03d}")
-        final.append((blk, h, blk is inner))
+        final.append((blk, h, is_act))
 
     out, y = [], 0
     for blk, h, is_act in final:
